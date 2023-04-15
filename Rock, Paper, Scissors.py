@@ -35,7 +35,7 @@ while True:
 
     if playerMove == computerMove:# results + adding to the scoreboard
         print('it is a tie!')
-        ties = ties + 1
+        draws = draws + 1
     elif playerMove == 'r' and computerMove == 's':
         print('you win!')
         wins = wins + 1
