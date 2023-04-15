@@ -6,7 +6,7 @@ losses = 0
 draws = 0
 #while true loop for game
 while True:
-    print('%s Wins, %s Losses, %s Ties' % (wins, losses, draws))#gets wins losses and ties based on strings of the same name
+    print('%s Wins, %s Losses, %s draws' % (wins, losses, draws))#gets wins losses and ties based on strings of the same name
     while True: #loop for player input
         print('Enter your move: r for rock, p for paper, or s for scissors, q can be used to quit the game')
         playerMove = input()
